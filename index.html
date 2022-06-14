@@ -950,7 +950,7 @@
     <div
         x-data="{
         activeImage: 1,
-        amountOfImages: 3,
+        amountOfImages: 4,
         loop() {
             setInterval(() => { this.activeImage = this.activeImage === this.amountOfImages ? 1 : this.activeImage + 1 }, 5000)
         },
@@ -991,7 +991,7 @@
             
                 <img
                     class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
-                    src="https://landing-page-app-hero-images.s3.amazonaws.com/media/18b1eb8b-318e-4022-9354-e476cc1d5090.png"
+                    src="https://landing-page-app-hero-images.s3.amazonaws.com/media/19b83ea2-b7e9-43e7-8529-f4d6cdfd0a07.png"
                     alt="Stucco Repair company TCC Stucco Repair in Houston, TX"
                 />
             
@@ -1010,7 +1010,26 @@
             
                 <img
                     class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
-                    src="https://landing-page-app-hero-images.s3.amazonaws.com/media/cc87633f-2711-4343-99d7-c5a57b5eec59.png"
+                    src="https://landing-page-app-hero-images.s3.amazonaws.com/media/5e79f322-0239-4172-a237-62720b6f493d.png"
+                    alt="Stucco Repair company TCC Stucco Repair in Houston, TX"
+                />
+            
+        </div>
+        
+        <div
+            class="absolute inset-0"
+            x-show="activeImage === 4"
+            x-transition:enter="transition duration-1000"
+            x-transition:enter-start="transform translate-x-full"
+            x-transition:enter-end="transform translate-x-0"
+            x-transition:leave="transition duration-1000"
+            x-transition:leave-start="transform"
+            x-transition:leave-end="transform -translate-x-full"
+        >
+            
+                <img
+                    class="object-cover w-full h-72 md:h-96 lg:w-full lg:h-full"
+                    src="https://landing-page-app-hero-images.s3.amazonaws.com/media/d198574c-14ef-4830-a49c-e0833f2ff990.png"
                     alt="Stucco Repair company TCC Stucco Repair in Houston, TX"
                 />
             
@@ -4024,7 +4043,7 @@
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="77745"
+                                aria-controls="77751"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white">What&#x27;s the best way to reach you?</span>
@@ -4043,7 +4062,7 @@
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="77745">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="77751">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100">Give us a call or send us a text at +18329302397. Thanks!</p>
                         </dd>
@@ -4055,7 +4074,7 @@
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="77746"
+                                aria-controls="77752"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white">Do you provide free estimates?</span>
@@ -4074,7 +4093,7 @@
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="77746">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="77752">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100">Yes, we&#x27;ll always estimate the job for free. Just give us a call to get started.</p>
                         </dd>
@@ -4086,7 +4105,7 @@
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="77747"
+                                aria-controls="77753"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white">How are you different?</span>
@@ -4105,7 +4124,7 @@
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="77747">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12" id="77753">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100">We&#x27;re a customer-first company that will do whatever it takes to make sure the job is well done.</p>
                         </dd>
@@ -4607,35 +4626,35 @@ observer.observe(target)
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-236234"
-                                                    name="236234"
+                                                    id="contact-service-236243"
+                                                    name="236243"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Stucco Installation"
                                             />
-                                            <label for="contact-label-service-236234" class="ml-3 text-sm font-medium text-gray-700">Stucco Installation</label>
+                                            <label for="contact-label-service-236243" class="ml-3 text-sm font-medium text-gray-700">Stucco Installation</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-236235"
-                                                    name="236235"
+                                                    id="contact-service-236244"
+                                                    name="236244"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Stucco Repairs"
                                             />
-                                            <label for="contact-label-service-236235" class="ml-3 text-sm font-medium text-gray-700">Stucco Repairs</label>
+                                            <label for="contact-label-service-236244" class="ml-3 text-sm font-medium text-gray-700">Stucco Repairs</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-236236"
-                                                    name="236236"
+                                                    id="contact-service-236245"
+                                                    name="236245"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Commercial Services"
                                             />
-                                            <label for="contact-label-service-236236" class="ml-3 text-sm font-medium text-gray-700">Commercial Services</label>
+                                            <label for="contact-label-service-236245" class="ml-3 text-sm font-medium text-gray-700">Commercial Services</label>
                                         </div>
                                         
                                     </div>
@@ -4664,35 +4683,35 @@ observer.observe(target)
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-236234"
-                                                    name="236234"
+                                                    id="contact-service-236243"
+                                                    name="236243"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Stucco Installation"
                                             />
-                                            <label for="contact-label-service-236234" class="ml-3 text-sm font-medium text-gray-700">Stucco Installation</label>
+                                            <label for="contact-label-service-236243" class="ml-3 text-sm font-medium text-gray-700">Stucco Installation</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-236235"
-                                                    name="236235"
+                                                    id="contact-service-236244"
+                                                    name="236244"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Stucco Repairs"
                                             />
-                                            <label for="contact-label-service-236235" class="ml-3 text-sm font-medium text-gray-700">Stucco Repairs</label>
+                                            <label for="contact-label-service-236244" class="ml-3 text-sm font-medium text-gray-700">Stucco Repairs</label>
                                         </div>
                                         
                                         <div class="flex items-center">
                                             <input
-                                                    id="contact-service-236236"
-                                                    name="236236"
+                                                    id="contact-service-236245"
+                                                    name="236245"
                                                     type="checkbox"
                                                     class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                     value="Commercial Services"
                                             />
-                                            <label for="contact-label-service-236236" class="ml-3 text-sm font-medium text-gray-700">Commercial Services</label>
+                                            <label for="contact-label-service-236245" class="ml-3 text-sm font-medium text-gray-700">Commercial Services</label>
                                         </div>
                                         
                                     </div>
