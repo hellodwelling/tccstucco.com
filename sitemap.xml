@@ -5,70 +5,77 @@
 
     <url>
         <loc>https://tccstucco.com/index</loc>
-        <lastmod>2022-06-07</lastmod>
+        <lastmod>2022-06-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>https://tccstucco.com/store</loc>
-        <lastmod>2022-06-07</lastmod>
+        <lastmod>2022-06-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>https://tccstucco.com/reviews</loc>
-        <lastmod>2022-06-07</lastmod>
+        <lastmod>2022-06-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>https://tccstucco.com/gallery-All</loc>
-        <lastmod>2022-06-07</lastmod>
+        <lastmod>2022-06-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>https://tccstucco.com/gallery-Front-Elevation-Re-Build</loc>
-        <lastmod>2022-06-07</lastmod>
+        <lastmod>2022-06-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>https://tccstucco.com/gallery-Outdoor-Stucco-Kitchen-Build</loc>
-        <lastmod>2022-06-07</lastmod>
+        <lastmod>2022-06-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>https://tccstucco.com/gallery-Exterior</loc>
-        <lastmod>2022-06-07</lastmod>
+        <lastmod>2022-06-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://tccstucco.com/gallery-Window-and-balcony-header-repair</loc>
+        <lastmod>2022-06-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>https://tccstucco.com/service-Stucco-Installation</loc>
-        <lastmod>2022-06-07</lastmod>
+        <lastmod>2022-06-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>https://tccstucco.com/service-Stucco-Repairs</loc>
-        <lastmod>2022-06-07</lastmod>
+        <lastmod>2022-06-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <url>
         <loc>https://tccstucco.com/service-Commercial-Services</loc>
-        <lastmod>2022-06-07</lastmod>
+        <lastmod>2022-06-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
